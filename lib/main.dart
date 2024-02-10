@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
-import 'package:todoey/ui_updates_demo.dart';
+// import 'package:todoey/demo_buttons/ui_updates_demo.dart';
+import 'package:todoey/keys/keys.dart';
 
 void main() {
   runApp(
@@ -26,7 +27,7 @@ class App extends StatelessWidget {
         appBar: AppBar(
           title: const Text('Flutter Internals'),
         ),
-        body: const UIUpdatesDemo(),
+        body: const Keys(),
       ),
     );
   }

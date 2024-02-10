@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'package:todoey/demo_buttons.dart';
+import 'package:todoey/demo_buttons/demo_buttons.dart';
 
 class UIUpdatesDemo extends StatelessWidget {
   const UIUpdatesDemo({super.key});
