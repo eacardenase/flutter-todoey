@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import 'package:todoey/keys/checkable_todo_item.dart';
 import 'package:todoey/keys/todo_item.dart';
 
 class Todo {
@@ -62,7 +63,9 @@ class _KeysState extends State<Keys> {
           child: Column(
             children: [
               for (final todo in _orderedTodos)
-                TodoItem(
+                CheckableTodoItem(
+                  // key: ObjectKey(todo),
+                  key: ValueKey(todo),
                   todo: todo,
                 )
             ],
